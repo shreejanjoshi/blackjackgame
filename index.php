@@ -71,7 +71,8 @@ if($_SERVER["REQUEST_METHOD"]== "POST"){
 
     <div>
         <h2>Dealer</h2>
-        <p><strong>Point= <?php ?></strong></p>
+        <p><strong><?php foreach($game->getDealer()->getScore() as $)
+        ?></strong></p>
     </div>
 
     <div>
